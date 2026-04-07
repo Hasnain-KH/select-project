@@ -9,15 +9,15 @@ select.addEventListener("change", function(detail){
     h2.innerHTML = (`Congrajulation ${car} car is seleted.`);
 
     if(car === "coroala"){
-        img.src = '../assets/coroala.png';
+        img.src = 'coroala.png';
     }
     else if(car === "Hilux"){
-        img.src = '../assets/Hilux.png';
+        img.src = 'Hilux.png';
     }
-    else if(car === "land cruizer"){
-        img.src = '../assets/land cruizer.png';
-    }
+     else if(car === "cruizer"){
+        img.src = 'cruizer.png';
+     }
     else if(car === "fortuner"){
-        img.src = '../assets/coroala.png';
+        img.src = 'fortuner.png';
     }
 })
