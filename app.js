@@ -14,8 +14,8 @@ select.addEventListener("change", function(detail){
     else if(car === "Hilux"){
         img.src = 'Hilux.png';
     }
-     else if(car === "cruizer"){
-        img.src = 'cruizer.png';
+     else if(car === "land-cruizer"){
+        img.src = 'land-cruizer.png';
      }
     else if(car === "fortuner"){
         img.src = 'fortuner.png';
